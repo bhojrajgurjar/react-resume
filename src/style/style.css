@@ -1,0 +1,234 @@
+.header{
+    display: flex;
+    
+    background-color: rgb(9, 27, 39);
+    height: 160%;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: 2px solid blue;
+    margin-left: 15%;
+}
+.header p{
+    margin-top: 0px;
+    
+    margin-left: 10%;
+    margin-bottom:0px ;
+    font-size: 300%;
+    color: whitesmoke;
+}
+.contact{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.contact div{
+    width: 25%;
+}
+.contact-block{
+    background-color: rgb(248, 248, 54);
+    color: whitesmoke;
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.address-block{
+    padding: 1%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: blue;
+}
+.phone-block{
+    padding: 1%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: red;
+}
+.mail-block{
+    padding: 1%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: green;
+}
+.section{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: whitesmoke;
+}
+.section div{
+    width: 50%;
+    padding: 1%;
+}
+.section-div1st{
+    background-color:yellowgreen;
+}
+.section-div2nd{
+    background-color: orangered;
+}
+.section div h1{
+    text-align: center;
+}
+.section-div1st p{
+    text-align: center;
+    margin: 1%;
+}
+.section2nd{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: whitesmoke;
+}
+.section2nd div{
+    width: 50%;
+   
+}
+.section2nd div h1{
+    text-align: center;
+}
+.hobbies{
+    background-color: violet;
+}
+.skills{
+    background-color: turquoise;
+}
+@media screen and (max-width:1020px){
+    .header{
+        
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .contact{
+       
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .section{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .section2nd{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+   
+@media screen and (max-width:1020px){
+    .header{
+        
+    margin-left: 5%;
+    margin-right:5%;
+    }
+    .contact{
+       
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .section{
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    .section2nd{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+    
+        .header{
+            
+        margin-left: 0%;
+        margin-right: 0%;
+        }
+        .header img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            border: 2px solid blue;
+            margin-left: 5%;
+        }
+        .header p{
+            margin-top: 0px;
+            
+            margin-left: 10%;
+            margin-bottom:0px ;
+            font-size: 200%;
+            color: whitesmoke;
+        }
+        .contact{
+           
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        .contact div{
+            width: 25%;
+            height: 40px;
+        }
+        .fas{
+            margin-bottom: 0px;
+        }
+        .contact div p{
+            margin-top: 0px;
+            font-size: 80%;
+        }
+        .contact-block{
+            font-size: 102%;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            height: 45px !important;
+        }
+        .contact-block p{
+           margin-top: 17px !important;
+        }
+        .section{
+            margin-left: 0%;
+            margin-right: 0%;
+            
+        }
+        .section2nd{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        .mail-block p{
+            font-size: 54% !important;
+        }
+        .section-div1st h1{
+            font-size: 100%;
+        }
+        .section-div2nd h1{
+            font-size: 100%;
+        }
+        .section-div2nd ul{
+            font-size: 80%;
+        }
+        .hobbies h1{
+            font-size: 100%;
+        }
+        .hobbies ul{
+            font-size: 80%;
+        }
+        .skills h1{
+            font-size: 100%;
+        }
+        .skills ul{
+            font-size: 80%;
+        }
+
+    
+    
+}
